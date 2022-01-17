@@ -1,7 +1,8 @@
 from django.http import Http404, HttpResponse
 from django.shortcuts import render
 from django.http import HttpResponse
-from pip import main
+
+
 
 
 # Create your views here.
