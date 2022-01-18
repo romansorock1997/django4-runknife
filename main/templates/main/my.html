@@ -6,15 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collection</title>
-    <header>
-    <link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
-    </header>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    
 </head>
 <body>
     <div class="container">
-        <div class="form">
-        ffffffffffffffffffffffffffff
-        </div>
+           <form>
+            <div class="input">
+                <label for="email"> Почта: </label>
+                <input id="email" type="email">
+            </div>
+            <div class="input">    
+                <label for="password"> Пароль: </label>
+                <input id="password" type="password">
+            </div>
+            <div class="input">
+                <label for="password2"> Повтор пароля: <abbr title="passw"></abbr> </label>
+                <input type="password" id="password2">
+            </div>    
+            <div class="buton">   
+            <button type="submit"> Регистрация </button>
+            <button type="submit"> Войти </button>
+            </div>
+            </form>
     </div>    
 </body>
 </html>

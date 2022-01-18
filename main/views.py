@@ -1,6 +1,7 @@
 from django.http import Http404, HttpResponse
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template import base
 
 
 
@@ -18,3 +19,6 @@ def about(request):
 
 def cruze(request):
     return render(request, 'main/my.html')
+
+def hpage(request):
+    return render(request, 'main/base.html')
